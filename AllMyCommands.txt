@@ -1,0 +1,24 @@
+$ cd Desktop/UntilDawn
+$ git init
+$ git add -A
+$ git rm --casehd AllMyCommands.txt
+$ git status
+$ git commit -m 'Added files'
+$ git rm 3.1.txt
+$ git commit -m 'Deleted file'
+$ git log
+$ git revert  8659acef323d1672762c1beb52a3263edac69bfc
+:q
+$ git remote add origin https://github.com/mounirbasta/Mounir-rep.git
+$ git push --rebase origin master
+$ git push -u origin master
+$ git branch ReadMe
+$ git branch -a
+$ git checkout ReadMe
+$ git add README.md
+$ git commit -m 'Add the README.md file to the branch of ReadMe'
+$ git checkout master
+$ git merge ReadMe
+$ git add AllMyCommands.txt
+$ git commit -m 'Added all the commands in AllMyCommands.txt'
+$ git push -u origin master
